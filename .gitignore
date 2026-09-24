@@ -1,0 +1,44 @@
+# Python artifacts and Cache
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+#Playwright and Pytest artifacts and reports
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+htmlcov/
+reports/
+*.html
+.coverage
+.coverage.*
+
+# Logs and execution traces
+*.log
+logs/
+
+# IDE configurations
+.vscode/*
+!.vscodesettings.json
+.idea/
+*.swp
+*.swo
+
+# System files and sensitive environment variables
+.DS_Store
+Thumbs.db
+.env
+
+# Screenshots and generated visual media
+*.png
+*.jpg
+*.jpeg
+screenshots/
